@@ -45,5 +45,5 @@ streamlit run TDS.py
 ## Notes
 
 - Extraction depends on the challan's text layout; scanned-image PDFs without a text layer will not extract (no OCR).
-- Everything runs locally; files are processed in memory and not uploaded anywhere.
-- Private project.
+- PDFs and the output workbook are processed in memory by the Streamlit server. Run locally if you want that processing to stay on your own computer.
+- Personal project.
